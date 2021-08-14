@@ -1,24 +1,22 @@
 <template>
   <div>
-    <Nav/>
-    <Page/>
-    <Footer/>
+    <Nav />
+    <router-view></router-view>
+    <Footer />
   </div>
 </template>
 
 <script>
-  import Nav from "./components/Nav";
-  import Footer from './components/Footer'
-  import Page from './components/Page';
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 
-  export default {
-    name: "App",
-    components: {
-      Footer,
-      Nav,
-      Page
-    }
-  }
+export default {
+  name: "App",
+  components: {
+    Footer,
+    Nav,
+  },
+};
 </script>
 
 <style>

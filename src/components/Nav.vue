@@ -1,7 +1,13 @@
 <template>
-  <div >
+  <div>
     <section>
-      <nav class="principal"> asdsasd </nav>
+      <nav class="principal">
+        <ul>
+          <li><router-link to="/"> Home </router-link></li>
+          <li><router-link to="/contato"> Contato </router-link></li>
+          <li><router-link to="/sobre"> Sobre </router-link></li>
+        </ul>
+      </nav>
     </section>
   </div>
 </template>
@@ -14,6 +20,6 @@ export default {
 
 <style lang="css" scoped>
 nav.principal {
-  background:red;
+  background: red;
 }
 </style>

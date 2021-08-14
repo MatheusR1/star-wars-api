@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="tal"> asdad</section>
+    <section class="tal">asdad</section>
   </div>
 </template>
 
@@ -11,7 +11,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
-    section.tal {
-         background: green;
-    }
+section.tal {
+  background: green;
+}
 </style>

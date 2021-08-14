@@ -5,7 +5,8 @@
 </template>
 
 <script>
-import starWars from "./starWars";
+
+import starWars from "../components/starWars.vue";
 
 export default {
   name: "Page",

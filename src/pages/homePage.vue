@@ -1,11 +1,10 @@
 <template>
-  <div>
+  <div class="container">
     <star-wars />
   </div>
 </template>
 
 <script>
-
 import starWars from "../components/starWars.vue";
 
 export default {
@@ -16,8 +15,10 @@ export default {
 };
 </script>
 
-<style scoped>
-div {
-  background: blue;
-}
+<style lang='css' scoped>
+  div.container {
+    background: blue;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+  }
 </style>

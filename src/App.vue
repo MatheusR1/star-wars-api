@@ -21,11 +21,14 @@ export default {
 
 <style>
 #app {
+  background: #000;
+}
+
+body,html {
   padding: 0;
   margin: 0;
   vertical-align: baseline;
   list-style: none;
   border: 0;
-  background: #000;
 }
 </style>
